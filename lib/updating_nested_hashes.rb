@@ -60,7 +60,10 @@ def add_characters
    #   - The first hash should have the :name key set to "Prince Escalus"
    #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
-epic_tragedy[:additional_characters]
+epic_tragedy[:additional_characters] = [
+  {
+  }
+]
 
 
 
